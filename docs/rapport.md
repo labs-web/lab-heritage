@@ -1,6 +1,6 @@
 ---
 layout: default
-order: 1
+order: 2
 ---
 
 {% assign pages = site.pages | sort: "order" %}

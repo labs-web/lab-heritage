@@ -1,6 +1,6 @@
 ---
 layout: default
-title: base-donne.md
+title: compte-rendus-base-donne.md
 order: 3
 ---
 
