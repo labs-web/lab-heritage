@@ -14,16 +14,12 @@ order: 2
 
 - docs 
   - Introduction
+    - images
     - introduction.md
-
-  - creation d'une application
-    - Compte-rendu-app.md
-  - Base de donne
-    - images
-    - Compte-rendus-base-donne.md
   - Backend
-    - images
     - Compte-rendus-backend.md
+  - Unit test
+    - compte-rendus-test.md
   - Front-end
     - images
     - Compte-rendus-frontend
