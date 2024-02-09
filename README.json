@@ -20,6 +20,10 @@
             {
                 "Titre":"/docs",
                 "Description":"Documentation"
+            },
+            {
+                "Titre":"/docs/rapport",
+                "Description":"https://labs-web.github.io/lab-heritage/rapport.html"
             }
         ]
     },   
