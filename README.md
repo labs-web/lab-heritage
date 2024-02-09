@@ -9,5 +9,4 @@
 
 # Livrable
 
-- [Rapport](https://labs-web.github.io/lab-heritage/rapport.html)
-- [Presentation](https://labs-web.github.io/lab-heritage/presentation.html)
+[Rapport](https://labs-web.github.io/lab-heritage/rapport.html)
