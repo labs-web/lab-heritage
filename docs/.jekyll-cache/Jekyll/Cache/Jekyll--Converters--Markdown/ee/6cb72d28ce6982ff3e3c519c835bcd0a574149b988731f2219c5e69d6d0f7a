@@ -1,0 +1,47 @@
+I"9<h1 id="backlog">Backlog</h1>
+
+<!-- new slide -->
+
+<h2 id="structure-des-dossiers">Structure des dossiers</h2>
+
+<!-- note -->
+
+<ul>
+  <li>docs
+    <ul>
+      <li>Introduction
+        <ul>
+          <li>images</li>
+          <li>introduction.md</li>
+        </ul>
+      </li>
+      <li>Backend
+        <ul>
+          <li>Compte-rendus-backend.md</li>
+        </ul>
+      </li>
+      <li>Unit test
+        <ul>
+          <li>compte-rendus-test.md</li>
+        </ul>
+      </li>
+      <li>Front-end
+        <ul>
+          <li>images</li>
+          <li>Compte-rendus-frontend</li>
+        </ul>
+      </li>
+      <li>Conclusion
+        <ul>
+          <li>images</li>
+          <li>Conculsion.md</li>
+        </ul>
+      </li>
+      <li>Rapport.md</li>
+      <li>Presentation.html</li>
+    </ul>
+  </li>
+</ul>
+
+<!-- new slide -->
+:ET
