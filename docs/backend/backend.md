@@ -25,6 +25,20 @@ Pour mettre en œuvre l'héritage dans le backend avec Laravel, vous pouvez suiv
 
 <!-- new slide -->
 
+## Les commandes
+
+```bash
+# Pour ajouter un model avec migration
+php artisan make:models Personne -m
+
+# Pour ajouter une controller
+
+php artisan make:controllers MembreController 
+
+```
+
+<!-- new slide -->
+
 ## References
 
 - https://chuniversiteit.nl/programming/inheritance-in-eloquent-models
