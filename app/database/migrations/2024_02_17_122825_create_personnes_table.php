@@ -13,10 +13,10 @@ return new class extends Migration
     {
         Schema::create('personnes', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
+            $table->string('nom');
             $table->string('prenom');
             $table->string('email');
-            $table->string('role')->nullable();
+            $table->string('type')->nullable();
             $table->timestamps();
         });
     }
