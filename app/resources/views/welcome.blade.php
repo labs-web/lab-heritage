@@ -7,9 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="{{ route('membre.store') }}" method="post">
-        @csrf
-        <button type="submit">Ajouter</button>
-    </form>
+    <a href="{{ route('membre.create') }}">Ajouter</a>
+      
 </body>
 </html>
