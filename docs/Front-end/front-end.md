@@ -1,9 +1,9 @@
 ---
 layout: default
-title: backend.md
+chapitre: Front-end
 order: 4
 ---
-<!-- -->
 
-# Front end
+# Front-end
 
+<!-- new slide -->
