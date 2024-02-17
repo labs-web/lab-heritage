@@ -14,16 +14,16 @@ table tr td {
     font-weight: bold;
 }
 
-.pagination li a {
-    background-color: #F2F2F2;
-    color: #000;
+.page-link {
+    background-color: #F2F2F2 !important;
+    color: #000 !important;
 }
 
-.pagination li a:hover {
-    color: #000;
+.page-link span:hover {
+    color: #000 !important;
 }
 
-.pagination li .active{
+.page-item.active .page-link{
     background-color: #BCD2E8 !important;
-    border: 1px solid #F2F2F2;
+    border: 1px solid #F2F2F2 !important;
 }

@@ -14,13 +14,9 @@ use App\Http\Controllers\Membre\MembreController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
+Route::get('/',[MembreController::class, 'index'])->name('membre.index');
 Route::get('/membre/form-ajouter',[MembreController::class, 'create'])->name('membre.create');
 Route::post('/membre/ajouter',[MembreController::class, 'store'])->name('membre.store');
-Route::get('/membres',[MembreController::class, 'index'])->name('membre.index');
 Route::get('/membre/{id}',[MembreController::class, 'show'])->name('membre.show');
 Route::get('/membre/{id}/edit',[MembreController::class, 'show'])->name('membre.edit');
 Route::PATCH('/membre/{id}/update',[MembreController::class, 'update'])->name('membre.update');

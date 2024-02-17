@@ -1,38 +1,33 @@
 @extends('layouts.app')
 @section('content')
 
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1>Ajouter un membre</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="content">
+
 <div class="container-fluid">
     <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-12 p-4">
 
             <div class="card card-primary">
                 <div class="card-header">
-                    <h3 class="card-title btnAdd">Ajouter membre</h3>
+                    <h3 class="card-title">Ajouter membre</h3>
                 </div>
                 <form>
                     <div class="card-body">
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Nom </label>
-                            <input name="nom" type="text" class="form-control"
-                                id="exampleInputEmail1">
-                        </div>
-
-                        <div class="form-group">
-                            <label for="exampleInputPassword1">Prenom</label>
-                            <input name="Prenom" type="text" class="form-control"
-                                id="exampleInputPassword1" placeholder="Enter Prenom">
-                        </div>
-
-                        <div class="form-group">
-                            <label for="exampleInputPassword1">Email</label>
-                            <input name="startDate" type="email" class="form-control"
-                                id="exampleInputPassword1" placeholder="Enter Email">
-                        </div>
+                        @include('membre.fields')
                     </div>
 
                     <div class="card-footer">
                         <a href="" class="btn btn-default">Cancel</a>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" class="btn btn-primary">Ajouter</button>
                     </div>
                 </form>
             </div>
@@ -40,5 +35,6 @@
         </div>
     </div>
 </div>
+</section>
     
 @endsection

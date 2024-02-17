@@ -14,7 +14,7 @@ class MembreController extends Controller
         $this->MembreRepositorie = $MembreRepositorie;
     }
 
-    public function index(){
+    public function index(Request $request){
        $membres = $this->MembreRepositorie->paginate();
        if($request->ajax()){
             $searchMembre = $request->get('query');
