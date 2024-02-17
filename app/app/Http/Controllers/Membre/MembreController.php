@@ -34,7 +34,7 @@ class MembreController extends Controller
     public function store(Request $request){
         $data = $request->all();
         $membre = $this->MembreRepositorie->create($data);
-        return view('membre.index')->with('success','Membre a été ajouté avec sucess');
+        return redirect()->route('membre.index')->with('success', 'Membre a été ajouté avec succès');
     }
 
     public function show($id){
@@ -47,7 +47,7 @@ class MembreController extends Controller
         return view('membre.edit',compact('membre'));
     }
 
-    public function update($id){
+    public function update(Request $request, $id){
         $data = $request->all();
         $membre = $this->MembreRepositorie->update($id, $data);
         return back()->with('success','Membre a été modifié avec sucess');
@@ -55,6 +55,6 @@ class MembreController extends Controller
 
     public function delete($id){
         $membre = $this->MembreRepositorie->delete($id);
-        return view('membre.index')->with('success','Membre a été supprimé avec sucess');
+        return redirect()->route('membre.index')->with('success', 'Membre a été ajouté avec succès');
     }
 }

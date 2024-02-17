@@ -16,11 +16,16 @@
                 <td>{{$item->prenom}}</td>
                 <td>{{$item->email}}</td>
                 <td>{{$item->type}}</td>
-                <td>
+                <td class="d-flex justify-content-center">
                     <a href="{{ route('membre.edit', $item->id) }}" class="btn btn-sm btn-default"><i
                             class="fa-solid fa-pen-to-square"></i></a>
-                    <button type="button" class="btn btn-sm btn-danger"><i
-                            class="fa-solid fa-trash"></i></button>
+                            <form action="{{ route('membre.delete', $item->id) }}" class="ml-2" method="post">
+                                @csrf
+                                @method('delete')
+                                <button type="button" class="btn btn-sm btn-danger" onclick="confirmDelete(this.form)"><i
+                                        class="fa-solid fa-trash"></i></button>
+                            </form>
+                            
                 </td>
             </tr>
         @endforeach

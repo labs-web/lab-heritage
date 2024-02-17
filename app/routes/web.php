@@ -19,5 +19,5 @@ Route::get('/membre/form-ajouter',[MembreController::class, 'create'])->name('me
 Route::post('/membre/ajouter',[MembreController::class, 'store'])->name('membre.store');
 Route::get('/membre/{id}',[MembreController::class, 'show'])->name('membre.show');
 Route::get('/membre/{id}/edit',[MembreController::class, 'edit'])->name('membre.edit');
-Route::PATCH('/membre/{id}/update',[MembreController::class, 'update'])->name('membre.update');
-Route::post('/membre/{id}/delete',[MembreController::class, 'delete'])->name('membre.delete');
+Route::post('/membre/{id}/update',[MembreController::class, 'update'])->name('membre.update');
+Route::DELETE('/membre/{id}/delete',[MembreController::class, 'delete'])->name('membre.delete');

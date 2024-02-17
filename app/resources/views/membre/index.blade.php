@@ -2,6 +2,13 @@
 @section('content')
 <div class="content-header">
     <div class="container-fluid">
+        @if (session('success'))
+        <div class="alert alert-success alert-dismissible">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+            {{ session('success') }}.
+        </div>
+        @endif
+
         <div class="row mb-2">
             <div class="col-sm-6">
                 <h1>La liste des membres</h1>
@@ -81,6 +88,12 @@
 
     fetch_data(1, '');
 });
+
+function confirmDelete(form) {
+    if (confirm("Are you sure you want to delete this member?")) {
+        form.submit();
+    }
+}
 </script>
 
 @endsection

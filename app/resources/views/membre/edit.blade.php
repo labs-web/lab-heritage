@@ -2,6 +2,13 @@
 @section('content')
 
 <div class="content-header">
+    @if (session('success'))
+        <div class="alert alert-success alert-dismissible">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+            {{ session('success') }}.
+        </div>
+    @endif
+
     <div class="container-fluid">
         <div class="row mb-2">
             <div class="col-sm-6">
@@ -20,9 +27,9 @@
                 <div class="card-header">
                     <h3 class="card-title">Editer membre</h3>
                 </div>
-                <form action="{{ route('membre.update', $membre->id) }}" method="PATCH">
+                <form action="{{ route('membre.update', $membre->id) }}" method="post">
                     @csrf
-                    @method('PATCH')
+                    @method('post')
                     <div class="card-body">
                         @include('membre.fields')
                     </div>
