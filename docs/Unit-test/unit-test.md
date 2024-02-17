@@ -7,7 +7,7 @@ order: 3
 # Unit test
 
 
-![Unit test](./images/unit-test.png){:width="500px" }
+![Unit test](./images/unit-test.png){:width="700px" }
 *Unit test*
 
 <!-- note -->
