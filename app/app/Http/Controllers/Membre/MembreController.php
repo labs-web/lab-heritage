@@ -27,6 +27,10 @@ class MembreController extends Controller
         return view('membre.index',compact('membres'));
     }
 
+    public function create(){
+       return view('membre.create');
+    }
+
     public function store(Request $request){
         $data = $request->all();
         $membre = $this->MembreRepositorie->create($data);

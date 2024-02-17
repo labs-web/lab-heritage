@@ -1,6 +1,6 @@
 <li class="nav-item">
-    <a href="{{ route('film.index') }}" class="nav-link {{ Request::is('film.index') ? 'active' : '' }}">
+    <a href="{{ route('membre.index') }}" class="nav-link {{ Request::is('membre.index') ? 'active' : '' }}">
       <i class="nav-icon fas fa-table"></i>
-      <p>Films</p>
+      <p>Membres</p>
     </a>
 </li>

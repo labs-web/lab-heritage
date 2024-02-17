@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Evaluation</title>
+    <title>Gestion des membres</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
@@ -56,7 +56,7 @@
             <div class="float-right d-none d-sm-block">
                 <b>Version</b> 3.1.0
             </div>
-            <strong>Copyright &copy; 2014-2023 <a href="https://adminlte.io">Test evaluation</a>.</strong> All rights
+            <strong>Copyright &copy; 2014-2023 <a href="https://adminlte.io">Gestion des membres</a>.</strong> All rights
             reserved.
         </footer>
     </div>
