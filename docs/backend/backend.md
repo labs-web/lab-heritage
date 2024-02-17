@@ -23,5 +23,14 @@ Pour mettre en œuvre l'héritage dans le backend avec Laravel, vous pouvez suiv
 
 - **Favoriser la modularité et la maintenance :** En structurant votre code de cette manière, vous favorisez la modularité et la maintenance facilitée. Les fonctionnalités communes sont regroupées dans un contrôleur de base, ce qui rend les mises à jour et les modifications plus simples à implémenter.
 
+<!-- new slide -->
+
+## References
+
+- https://chuniversiteit.nl/programming/inheritance-in-eloquent-models
+
+
+<!-- new slide -->
+
 
 
