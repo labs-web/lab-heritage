@@ -20,13 +20,15 @@
                 <div class="card-header">
                     <h3 class="card-title">Ajouter membre</h3>
                 </div>
-                <form>
+                <form action="{{ route('membre.store') }}" method="POST">
+                    @csrf
+                    @method('POST')
                     <div class="card-body">
                         @include('membre.fields')
                     </div>
 
                     <div class="card-footer">
-                        <a href="" class="btn btn-default">Cancel</a>
+                        <a href="{{ route('membre.index') }}" class="btn btn-default">Cancel</a>
                         <button type="submit" class="btn btn-primary">Ajouter</button>
                     </div>
                 </form>

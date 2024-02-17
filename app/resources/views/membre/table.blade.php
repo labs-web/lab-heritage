@@ -17,7 +17,7 @@
                 <td>{{$item->email}}</td>
                 <td>{{$item->type}}</td>
                 <td>
-                    <a href="./edit.html" class="btn btn-sm btn-default"><i
+                    <a href="{{ route('membre.edit', $item->id) }}" class="btn btn-sm btn-default"><i
                             class="fa-solid fa-pen-to-square"></i></a>
                     <button type="button" class="btn btn-sm btn-danger"><i
                             class="fa-solid fa-trash"></i></button>
