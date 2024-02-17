@@ -34,7 +34,8 @@ class MembreController extends Controller
     public function store(Request $request){
         $data = $request->all();
         $membre = $this->MembreRepositorie->create($data);
-        return redirect()->route('membre.index')->with('success', 'Membre a été ajouté avec succès');
+        $membres = $this->MembreRepositorie->paginate();
+        return view('membre.index',compact('membres'))->with('success', 'Membre a été ajouté avec succès');
     }
 
     public function show($id){
