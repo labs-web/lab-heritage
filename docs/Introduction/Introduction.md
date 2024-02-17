@@ -5,7 +5,7 @@ order: 1
 ---
 
 # Introduction
-![Introduction](./images/heritage.jpg){:width="400px" }
+![Introduction](./images/heritage.jpg){:width="500px" }
 *Lab starter*
 
 <!-- note -->
